@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Encryption Service</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <p id="homeLink"><a href="hill-cipher.html">Home</a></p>
+  <p id="Decrypt"><a href="decrypt.html">Decrypt</a></p>
+  <center>
+  <h1 class="tittle">Hill Cipher</h1>
+
+  <div id="inSec">
+    <div id="encForm">
+      <p id="inputP">Plaintext </p><br>
+      <textarea id="textP" name="plainM"></textarea>
+      <button id="encButton" type="button" class="encButton">Encrypt</button>
+    </div>
+  </div>
+  <pre id="encT"></pre>
+
+  <script src="scripts/util.js"></script>
+  <script src="scripts/encrypt.js"></script>
+  <script src="scripts/storage.js"></script>
+
+  </center>
+</body>
+
+</html>
